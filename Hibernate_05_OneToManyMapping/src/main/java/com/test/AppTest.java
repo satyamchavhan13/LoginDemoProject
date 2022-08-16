@@ -16,15 +16,15 @@ public class AppTest {
 		// for Employee 1 add data having many account with one employee ID
 		
 		AccountEntity account1 = new AccountEntity();
-		account1.setAccountNumber("Account Darshit 0001");
+		account1.setAccountNumber("Account Satyam 0001");
 
 		AccountEntity account2 = new AccountEntity();
-		account2.setAccountNumber("Account Darshit 0002");
+		account2.setAccountNumber("Account Chavhan 0002");
 		
 		EmployeeEntity firstEmployee = new EmployeeEntity();
-		firstEmployee.setEmail("darshit@gmail.com");
-		firstEmployee.setFirstName("darshit");
-		firstEmployee.setLastName("rabadiya");
+		firstEmployee.setEmail("satyamchavhan13@gmail.com");
+		firstEmployee.setFirstName("satyam");
+		firstEmployee.setLastName("chavhan");
 		
 		Set<AccountEntity> accountsOfFirstEmployee = new HashSet<AccountEntity>();
 		accountsOfFirstEmployee.add(account1);
@@ -35,12 +35,12 @@ public class AppTest {
 		// for employee 2 having 1 account 
 		
 		AccountEntity account3 = new AccountEntity();
-		account3.setAccountNumber("Account Swati 00003");
+		account3.setAccountNumber("Account Karan 00003");
 
 		EmployeeEntity secondEmployee = new EmployeeEntity();
-		secondEmployee.setEmail("swati@gmail.com");
-		secondEmployee.setFirstName("swati");
-		secondEmployee.setLastName("patil");
+		secondEmployee.setEmail("Karan@gmail.com");
+		secondEmployee.setFirstName("Karan");
+		secondEmployee.setLastName("sharma");
 
 		Set<AccountEntity> accountsOfSecondEmployee = new HashSet<AccountEntity>();
 		accountsOfSecondEmployee.add(account3);
