@@ -7,7 +7,7 @@
         <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
         <property name="connection.url">jdbc:mysql://localhost:3306/myhibernate?useSSL=false</property>
         <property name="connection.username">root</property>
-        <property name="connection.password">Piya@1234</property>
+        <property name="connection.password">Satyam@1234</property>
  
  	  	<!-- Select our SQL dialect -->
         <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
